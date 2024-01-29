@@ -8,17 +8,17 @@ $CFG->dbtype    = 'mariadb';
 $CFG->dblibrary = 'native';
 $CFG->dbhost    = 'localhost';
 $CFG->dbname    = 'moodle';
-$CFG->dbuser    = 'mdl_usr';
-$CFG->dbpass    = 'Wachtwoord123';
+$CFG->dbuser    = 'moodleuser';
+$CFG->dbpass    = 'yourpassword';
 $CFG->prefix    = 'mdl_';
 $CFG->dboptions = array (
   'dbpersist' => 0,
   'dbport' => '',
   'dbsocket' => '',
-  'dbcollation' => 'utf8mb4_general_ci',
+  'dbcollation' => 'utf8mb4_unicode_ci',
 );
 
-$CFG->wwwroot   = 'http://192.168.13.30';
+$CFG->wwwroot   = 'http://192.168.13.30/moodle';
 $CFG->dataroot  = '/var/www/moodledata';
 $CFG->admin     = 'admin';
 
